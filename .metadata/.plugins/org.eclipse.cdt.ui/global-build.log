@@ -1,9 +1,10 @@
-11:43:57 **** Rebuild of configuration Debug for project ejercicio3_4 ****
+12:04:10 **** Rebuild of configuration Debug for project ejercicio3_5 ****
 Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\ejercicio3_4.o" "..\\src\\ejercicio3_4.c" 
-gcc -o ejercicio3_4.exe "src\\ejercicio3_4.o" 
-Info: Nothing to build for ejercicio3_4
-12:01:15 **** Incremental Build of configuration Debug for project ejercicio3_4 ****
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\ejercicio3_5.o" "..\\src\\ejercicio3_5.c" 
+gcc -o ejercicio3_5.exe "src\\ejercicio3_5.o" 
+Info: Nothing to build for ejercicio3_5
+12:36:37 **** Incremental Build of configuration Debug for project ejercicio3_5 ****
 Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\ejercicio3_4.o" "..\\src\\ejercicio3_4.c" 
-gcc -o ejercicio3_4.exe "src\\ejercicio3_4.o" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\ejercicio3_5.o" "..\\src\\ejercicio3_5.c" 
+gcc -o ejercicio3_5.exe "src\\ejercicio3_5.o" 
+Info: Nothing to build for ejercicio3_5
