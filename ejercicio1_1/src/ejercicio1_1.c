@@ -5,6 +5,8 @@
  Version     :
  Copyright   : Your copyright notice
  Description : Hello World in C, Ansi-style
+
+ toupper(letra)
  ============================================================================
  */
 
@@ -13,21 +15,30 @@
 
 int main(void) {
 	setbuf(stdout, NULL);
-	int valorUno, valorDos, resultado;
 	system("cls");
 
-	printf("App Ejercicio 1_1\n");
-	printf("Introduce dos valores para sumar:\n");
-	printf("valor 1: ");
-	scanf("%d", &valorUno);
-	printf("valor 2: ");
-	scanf("%d", &valorDos);
+	int numero1 = 5;
+	int numero2 = 4;
+	int numero3 = 10;
+	int numeroIntermedio;
 
-	resultado = valorUno + valorDos;
-	printf("El resultado es: %d", resultado);
-	printf("\n");
+	if(numero1 != numero2 || numero3 != numero1 || numero2 != numero3 ){
+		printf("Son diferentes\n");
 
-	system("pause");
+		if(numero1 > numero2 && numero1 < numero3){
+			numeroIntermedio = numero1;
+			printf("EL Numero del medio es: %d", numeroIntermedio);
+		}
+		else if(numero1 < numero2 && numero1 > numero3){
+			numeroIntermedio = numero1;
+			printf("El numero del medio es :%d", numeroIntermedio);
+		}
+
+
+	}else{
+
+		printf("Hay repetidos");
+	}
 
 	return 0;
 }

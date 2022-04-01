@@ -1,1 +1,224 @@
-Info: Nothing to build for ejercicio4_1
+19:47:21 **** Incremental Build of configuration Debug for project ejercicio4_2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\ejercicio4_2.o" "..\\src\\ejercicio4_2.c" 
+gcc -o ejercicio4_2.exe "src\\ejercicio4_2.o" 
+Info: Nothing to build for ejercicio4_2
+Info: Nothing to build for ejercicio4_2
+18:43:36 **** Rebuild of configuration Debug for project ejercicio2_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\ejercicio2_1.o" "..\\src\\ejercicio2_1.c" 
+gcc -o ejercicio2_1.exe "src\\ejercicio2_1.o" 
+20:48:54 **** Rebuild of configuration Debug for project ejercicio1_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\ejercicio1_1.o" "..\\src\\ejercicio1_1.c" 
+..\src\ejercicio1_1.c: In function 'main':
+..\src\ejercicio1_1.c:32:10: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'int' [-Wformat=]
+   32 |  scanf("%d", numero);
+      |         ~^   ~~~~~~
+      |          |   |
+      |          |   int
+      |          int *
+..\src\ejercicio1_1.c:33:11: warning: format '%f' expects argument of type 'double', but argument 2 has type 'int' [-Wformat=]
+   33 |  printf("%f", numero);
+      |          ~^   ~~~~~~
+      |           |   |
+      |           |   int
+      |           double
+      |          %d
+..\src\ejercicio1_1.c:32:2: warning: 'numero' is used uninitialized in this function [-Wuninitialized]
+   32 |  scanf("%d", numero);
+      |  ^~~~~~~~~~~~~~~~~~~
+gcc -o ejercicio1_1.exe "src\\ejercicio1_1.o" 
+Info: Nothing to build for ejercicio1_1
+Info: Nothing to build for ejercicio1_1
+20:51:06 **** Incremental Build of configuration Debug for project ejercicio1_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\ejercicio1_1.o" "..\\src\\ejercicio1_1.c" 
+..\src\ejercicio1_1.c: In function 'main':
+..\src\ejercicio1_1.c:32:10: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'int' [-Wformat=]
+   32 |  scanf("%d", numero);
+      |         ~^   ~~~~~~
+      |          |   |
+      |          |   int
+      |          int *
+..\src\ejercicio1_1.c:33:11: warning: format '%f' expects argument of type 'double', but argument 2 has type 'int' [-Wformat=]
+   33 |  printf("%f", numero);
+      |          ~^   ~~~~~~
+      |           |   |
+      |           |   int
+      |           double
+      |          %d
+..\src\ejercicio1_1.c:16:26: warning: unused variable 'resultado' [-Wunused-variable]
+   16 |  int valorUno, valorDos, resultado;
+      |                          ^~~~~~~~~
+..\src\ejercicio1_1.c:16:16: warning: unused variable 'valorDos' [-Wunused-variable]
+   16 |  int valorUno, valorDos, resultado;
+      |                ^~~~~~~~
+..\src\ejercicio1_1.c:16:6: warning: unused variable 'valorUno' [-Wunused-variable]
+   16 |  int valorUno, valorDos, resultado;
+      |      ^~~~~~~~
+..\src\ejercicio1_1.c:32:2: warning: 'numero' is used uninitialized in this function [-Wuninitialized]
+   32 |  scanf("%d", numero);
+      |  ^~~~~~~~~~~~~~~~~~~
+gcc -o ejercicio1_1.exe "src\\ejercicio1_1.o" 
+20:51:23 **** Incremental Build of configuration Debug for project ejercicio1_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\ejercicio1_1.o" "..\\src\\ejercicio1_1.c" 
+..\src\ejercicio1_1.c: In function 'main':
+..\src\ejercicio1_1.c:32:10: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'int' [-Wformat=]
+   32 |  scanf("%d", numero);
+      |         ~^   ~~~~~~
+      |          |   |
+      |          |   int
+      |          int *
+..\src\ejercicio1_1.c:33:11: warning: format '%f' expects argument of type 'double', but argument 2 has type 'int' [-Wformat=]
+   33 |  printf("%f", numero);
+      |          ~^   ~~~~~~
+      |           |   |
+      |           |   int
+      |           double
+      |          %d
+..\src\ejercicio1_1.c:32:2: warning: 'numero' is used uninitialized in this function [-Wuninitialized]
+   32 |  scanf("%d", numero);
+      |  ^~~~~~~~~~~~~~~~~~~
+gcc -o ejercicio1_1.exe "src\\ejercicio1_1.o" 
+20:51:39 **** Incremental Build of configuration Debug for project ejercicio1_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\ejercicio1_1.o" "..\\src\\ejercicio1_1.c" 
+..\src\ejercicio1_1.c: In function 'main':
+..\src\ejercicio1_1.c:33:11: warning: format '%f' expects argument of type 'double', but argument 2 has type 'int' [-Wformat=]
+   33 |  printf("%f", numero);
+      |          ~^   ~~~~~~
+      |           |   |
+      |           |   int
+      |           double
+      |          %d
+gcc -o ejercicio1_1.exe "src\\ejercicio1_1.o" 
+Info: Nothing to build for ejercicio1_1
+Info: Nothing to build for ejercicio1_1
+Info: Nothing to build for ejercicio1_1
+21:37:24 **** Incremental Build of configuration Debug for project ejercicio1_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\ejercicio1_1.o" "..\\src\\ejercicio1_1.c" 
+..\src\ejercicio1_1.c: In function 'main':
+..\src\ejercicio1_1.c:35:11: warning: format '%f' expects argument of type 'double', but argument 2 has type 'int' [-Wformat=]
+   35 |  printf("%f", numero);
+      |          ~^   ~~~~~~
+      |           |   |
+      |           |   int
+      |           double
+      |          %d
+gcc -o ejercicio1_1.exe "src\\ejercicio1_1.o" 
+21:55:25 **** Incremental Build of configuration Debug for project ejercicio1_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\ejercicio1_1.o" "..\\src\\ejercicio1_1.c" 
+..\src\ejercicio1_1.c: In function 'main':
+..\src\ejercicio1_1.c:22:15: error: expected expression before '=' token
+   22 |  if(numero1 === numero2 || numero3 === numero1){
+      |               ^
+..\src\ejercicio1_1.c:20:32: warning: unused variable 'numero3' [-Wunused-variable]
+   20 |  int numero1 = 2, numero2 = 5, numero3 = 7;
+      |                                ^~~~~~~
+21:56:01 **** Incremental Build of configuration Debug for project ejercicio1_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\ejercicio1_1.o" "..\\src\\ejercicio1_1.c" 
+..\src\ejercicio1_1.c: In function 'main':
+..\src\ejercicio1_1.c:24:15: error: expected expression before '=' token
+   24 |  if(numero1 === numero2 || numero3 === numero1){
+      |               ^
+..\src\ejercicio1_1.c:22:6: warning: unused variable 'numero3' [-Wunused-variable]
+   22 |  int numero3 = 7;
+      |      ^~~~~~~
+21:56:30 **** Incremental Build of configuration Debug for project ejercicio1_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\ejercicio1_1.o" "..\\src\\ejercicio1_1.c" 
+..\src\ejercicio1_1.c: In function 'main':
+..\src\ejercicio1_1.c:24:15: error: expected expression before '=' token
+   24 |  if(numero1 === numero2 || numero3 === numero1){
+      |               ^
+..\src\ejercicio1_1.c:22:6: warning: unused variable 'numero3' [-Wunused-variable]
+   22 |  int numero3 = 7;
+      |      ^~~~~~~
+21:56:45 **** Incremental Build of configuration Debug for project ejercicio1_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\ejercicio1_1.o" "..\\src\\ejercicio1_1.c" 
+..\src\ejercicio1_1.c: In function 'main':
+..\src\ejercicio1_1.c:24:15: error: expected expression before '=' token
+   24 |  if(numero1 === numero2 || numero3 === numero1){
+      |               ^
+..\src\ejercicio1_1.c:22:6: warning: unused variable 'numero3' [-Wunused-variable]
+   22 |  int numero3 = 7;
+      |      ^~~~~~~
+21:57:10 **** Incremental Build of configuration Debug for project ejercicio1_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\ejercicio1_1.o" "..\\src\\ejercicio1_1.c" 
+..\src\ejercicio1_1.c: In function 'main':
+..\src\ejercicio1_1.c:24:16: error: expected expression before '=' token
+   24 |  if((numero1 === numero2) || (numero3 === numero1) ){
+      |                ^
+..\src\ejercicio1_1.c:22:6: warning: unused variable 'numero3' [-Wunused-variable]
+   22 |  int numero3 = 7;
+      |      ^~~~~~~
+21:57:38 **** Incremental Build of configuration Debug for project ejercicio1_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\ejercicio1_1.o" "..\\src\\ejercicio1_1.c" 
+gcc -o ejercicio1_1.exe "src\\ejercicio1_1.o" 
+C:/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/bin/ld.exe: cannot open output file ejercicio1_1.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+21:57:48 **** Incremental Build of configuration Debug for project ejercicio1_1 ****
+Info: Internal Builder is used for build
+gcc -o ejercicio1_1.exe "src\\ejercicio1_1.o" 
+21:58:52 **** Incremental Build of configuration Debug for project ejercicio1_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\ejercicio1_1.o" "..\\src\\ejercicio1_1.c" 
+gcc -o ejercicio1_1.exe "src\\ejercicio1_1.o" 
+21:59:01 **** Incremental Build of configuration Debug for project ejercicio1_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\ejercicio1_1.o" "..\\src\\ejercicio1_1.c" 
+gcc -o ejercicio1_1.exe "src\\ejercicio1_1.o" 
+21:59:09 **** Incremental Build of configuration Debug for project ejercicio1_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\ejercicio1_1.o" "..\\src\\ejercicio1_1.c" 
+gcc -o ejercicio1_1.exe "src\\ejercicio1_1.o" 
+21:59:20 **** Incremental Build of configuration Debug for project ejercicio1_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\ejercicio1_1.o" "..\\src\\ejercicio1_1.c" 
+gcc -o ejercicio1_1.exe "src\\ejercicio1_1.o" 
+21:59:28 **** Incremental Build of configuration Debug for project ejercicio1_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\ejercicio1_1.o" "..\\src\\ejercicio1_1.c" 
+gcc -o ejercicio1_1.exe "src\\ejercicio1_1.o" 
+22:00:38 **** Incremental Build of configuration Debug for project ejercicio1_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\ejercicio1_1.o" "..\\src\\ejercicio1_1.c" 
+gcc -o ejercicio1_1.exe "src\\ejercicio1_1.o" 
+22:07:45 **** Incremental Build of configuration Debug for project ejercicio1_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\ejercicio1_1.o" "..\\src\\ejercicio1_1.c" 
+gcc -o ejercicio1_1.exe "src\\ejercicio1_1.o" 
+22:08:25 **** Incremental Build of configuration Debug for project ejercicio1_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\ejercicio1_1.o" "..\\src\\ejercicio1_1.c" 
+gcc -o ejercicio1_1.exe "src\\ejercicio1_1.o" 
+22:08:41 **** Incremental Build of configuration Debug for project ejercicio1_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\ejercicio1_1.o" "..\\src\\ejercicio1_1.c" 
+gcc -o ejercicio1_1.exe "src\\ejercicio1_1.o" 
+22:11:39 **** Incremental Build of configuration Debug for project ejercicio1_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\ejercicio1_1.o" "..\\src\\ejercicio1_1.c" 
+gcc -o ejercicio1_1.exe "src\\ejercicio1_1.o" 
+22:13:55 **** Incremental Build of configuration Debug for project ejercicio1_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\ejercicio1_1.o" "..\\src\\ejercicio1_1.c" 
+gcc -o ejercicio1_1.exe "src\\ejercicio1_1.o" 
+Info: Nothing to build for ejercicio1_1
+22:14:17 **** Incremental Build of configuration Debug for project ejercicio1_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\ejercicio1_1.o" "..\\src\\ejercicio1_1.c" 
+gcc -o ejercicio1_1.exe "src\\ejercicio1_1.o" 
+Info: Nothing to build for ejercicio1_1
+22:14:57 **** Incremental Build of configuration Debug for project ejercicio1_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\ejercicio1_1.o" "..\\src\\ejercicio1_1.c" 
+gcc -o ejercicio1_1.exe "src\\ejercicio1_1.o" 

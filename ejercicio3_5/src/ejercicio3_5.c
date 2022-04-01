@@ -17,13 +17,13 @@ void  sumar3(int, int);
 void sumar4(void);
 
 int main(void) {
-	setbuf(stdout, NULL);
-	system("cls");
 	//primer prototipo
 	int resultadoProto;
 	
 	int valor1;
 	int valor2;
+	setbuf(stdout, NULL);
+	system("cls");
 	printf("App Ejercicio 3_5\n");
 	printf("Sumar 1 \n\n");
 
